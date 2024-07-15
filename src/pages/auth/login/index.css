@@ -1,0 +1,240 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 23px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.login-btn {
+  height: 56px;
+  padding: 0 48px;
+  background-color: #DB4444;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #DB4444;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginBanner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupContainer {
+  width: 50%;
+  padding: 89px 120px;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-container {
+  padding: 150px 129px 0 149px;
+  width: 50%;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 500;
+  row-gap: 24px;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading-container {
+  row-gap: 40px;
+  max-width: 371px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.input {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  background-color: #db4444;
+  border-radius: 4px;
+  height: 56px;
+}
+
+.google-sign-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.google-sign-button .icon {
+  margin-right: 8px;
+}
+
+.google-button-text {
+  color: #000;
+  width: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  z-index: 10;
+  align-self: center;
+}
+
+.create-button {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sub-heading {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.query-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}
+
+.query-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Media Queries for responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 968px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .loginBanner,
+  .form-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .form-container {
+    padding: 20px;
+  }
+
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .sub-heading,
+  .google-button-text {
+    font-size: 14px;
+  }
+
+  .button,
+  .google-sign-button {
+    height: 48px;
+  }
+
+  .google-button-text {
+    font-size: 14px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .loginBanner,
+  .form-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+  .main-heading {
+    font-size: 24px;
+  }
+
+  .sub-heading,
+  .google-button-text {
+    font-size: 12px;
+  }
+
+  .button,
+  .google-sign-button {
+    height: 40px;
+  }
+
+  .google-button-text {
+    font-size: 12px;
+  }
+
+  .icon {
+    height: 20px;
+    width: 20px;
+  }
+
+  .create-button {
+    font-size: 14px;
+  }
+}

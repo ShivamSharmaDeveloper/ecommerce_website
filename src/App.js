@@ -1,9 +1,18 @@
-// import logo from './logo.svg';
-// import './App.css';
 
+
+import Header from "./components/header";
+import './App.css'
+import Login from "./pages/auth/login";
+import SignUp from "./pages/auth/signup/SignUp";
 const App = () => {
   return (
-    <div>Hello</div>
+    <div className="appContainer" >
+    <Header/>
+    <div>
+{/* <Login/>       */}
+<SignUp/>
+    </div>
+    </div>
   );
 }
 

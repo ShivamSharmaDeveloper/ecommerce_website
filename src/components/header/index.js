@@ -1,4 +1,7 @@
 import React from 'react';
+import Wishlist from '../../assets/images/Wishlist.png';
+import Heart from '../../assets/images/cart.png';
+import User from '../../assets/images/user.png';
 import './index.css';
 
 const Header = () => {
@@ -17,6 +20,26 @@ const Header = () => {
         <input type="text" placeholder="What are you looking for?" />
         <button type="submit">Q</button>
       </div>
+      <div>
+   
+      </div> 
+      <div className="icon-container">
+      <div className="icon">
+     <img src={Wishlist} />
+      </div>
+      <div className="icon">
+     <img src={Heart} />
+     
+        
+      </div>
+      <div className="icon">
+     <img src={User} />
+        
+      </div>
+    </div>
+    <div>
+
+    </div>   
     </nav>
   );
 };

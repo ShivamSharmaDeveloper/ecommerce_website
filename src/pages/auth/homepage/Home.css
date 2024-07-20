@@ -1,0 +1,268 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.saleText {
+    font-size: 16px;
+    font-weight: 600;
+    color: #DB4444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.edgeBar {
+    height: 40px;
+    width: 8px;
+    background-color: #DB4444;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.trendingHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 8px;
+}
+
+.trending {
+    margin-top: 60px;
+}
+
+.trendingProduct {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.exploreProductContainer {
+    margin-top: 100px;
+}
+
+.shoeBanner2 {
+    max-height: 300px;
+    background-color: black;
+    width: 50%;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+.secondImageBanner {
+    height: 300px;
+
+}
+
+.shoeBannerMain{
+    width: 50%;
+    background-color: red;
+}
+
+
+.shoeBannerContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: space-between;
+}
+
+.trendingScrollContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendingProductHeader {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    /* margin-top: 60px; */
+}
+
+.scrollAdjust {
+    margin-top: 20px;
+    background-color: yellow;
+    padding-top: 20;
+}
+
+.google-button-text {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.viewProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 88px 0;
+}
+
+.google-sign-button {
+    width: 238px;
+    display: flex;
+    padding-left: 25%;
+    align-items: center;
+    gap: 6px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #DB4444;
+
+}
+
+.saleContainer {
+    margin-top: 45px;
+
+}
+
+.saleInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.timerContainer {
+    margin-top: 10px;
+}
+
+.todaySaleContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 24px;
+
+}
+
+.trendingSaleContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 24px;
+    justify-content: space-between;
+    margin-right: 100px;
+
+}
+
+.flashSale {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.scrollControlContainer {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    height: 46px;
+    width: 46px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
+.tabSwitcher {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.tab {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.tab.active {
+    color: red;
+}
+
+.tab.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: red;
+}
+
+.category {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.customerInfoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.outerCircle{
+  height: 80px;
+  width: 80px;
+  background-color: grey;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+
+}
+.innerCircle{
+    background-color: black;
+    border-radius: 50%;
+    height: 58px;
+    width: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deliveryInfo{
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.deliveryHeading{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.deliveryContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

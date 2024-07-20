@@ -1,11 +1,3 @@
-import React from 'react'
+import Homepage from "./auth/homepage/Home";
 
-const Home = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default Home
+export {Homepage};

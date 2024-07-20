@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    height: 80px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    width: 100%;
   }
   
   .nav-links {
@@ -23,6 +24,36 @@
     color: #333;
     font-weight: bold;
   }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    position: relative;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon svg {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
   
   .nav-item a:hover {
     text-decoration: underline;
@@ -31,6 +62,7 @@
   .search-box {
     display: flex;
     align-items: center;
+    
   }
   
   .search-box input {
